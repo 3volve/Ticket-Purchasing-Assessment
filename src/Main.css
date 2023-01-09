@@ -1,0 +1,142 @@
+/* Universal Styles */
+.Body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  display: flex;
+  margin-top: 8px;
+  color: dimgrey;
+  font-size: calc(8px + 1vmin);
+}
+
+h1 {
+  display: flex;
+  margin-top: 24px;
+  font-size: calc(16px + 2vmin);
+}
+
+h2 {
+  display: flex;
+  margin-bottom: 8px;
+  font-size: calc(8px + 2vmin);
+}
+
+h3 {
+  display: flex;
+  margin: 0px;
+  font-size: calc(10px + 1vmin);
+}
+
+.Main-App {
+  background-color: white;
+  min-height: 95vh;
+  max-width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  color: black;
+}
+
+.Left-Column {
+  flex: 0.6 0.6 0;
+  margin: 16px 24px 16px 56px;
+  min-height: 95vh;
+}
+
+.Right-Column {
+  flex: 0.4 0.4 0;
+  flex-direction: column;
+  justify-content: center;
+  margin: 16px 54px 16px 24px;
+  min-height: 95vh;
+}
+
+.Content-Box {
+  margin: 16px 0px;
+  padding: 24px 40px;
+}
+
+.CheckMark {
+  margin: 0px 0px 0px 8px;
+  height: fit-content;
+}
+
+.Small-CheckMark {
+  margin: 0px;
+  height: 30px;
+  width: fit-content;
+}
+
+.No-Margin {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Flex-Row {
+  display: flex;
+  flex-direction: row;
+}
+
+.Flex-Column {
+  display: flex;
+  flex-direction: column;
+}
+
+.Clickable-Text {
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+  color: royalblue;
+  text-decoration: none;
+  font-weight: bold;
+  background: none;
+  border: none;
+  font-size: calc(8px + 1vmin);
+}
+
+/* Shows Box's Styles */
+.Ticket-Number {
+  align-self: flex-end;
+  margin: 0px 0px 0px 8px;
+  margin-left: auto;
+}
+
+.Placeholder {
+  width: 20%;
+  margin-right: 8px;
+  height: fit-content;
+}
+
+.Show-Title {
+  display: flex;
+  align-content: top; 
+  padding-top: 8px;
+}
+
+/* Payment Box's Styles */
+.Card-Component {
+  padding-top: 8px;
+}
+
+.TicketMasterLogo {
+  align-self: flex-end;
+  margin: 0px 0px 0px 8px;
+  margin-left: auto;
+}
+
+.Choose-Card {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Summary Box's Styles */
+.Price {
+  align-self: center;
+  margin-left: auto;
+  margin-top: 0px;
+}
