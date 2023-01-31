@@ -13,6 +13,3 @@ If you successully run npm install in the correct directory, then you should be 
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser. (Although it should auto-open a window without you needing to manually navigate)
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
