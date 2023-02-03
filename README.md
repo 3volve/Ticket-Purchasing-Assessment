@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Mock-Up of a Ticket Purchasing Page
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 You will need Node installed in order to run this. I used the Node v18.13.0 installation.
